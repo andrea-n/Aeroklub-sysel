@@ -38,8 +38,7 @@ img.flag {
 }
 
 h2.section-heading {
-    color: #2E680A;
-    color: #1A4600;
+    text-align: center;
 }
 
 .text-bold { 
@@ -49,16 +48,13 @@ h2.section-heading {
 table {
     width: 100%;
     margin: 1em 0;
+    font-size: 0.9em;
 }
 
 td, th {
     text-align: left;
     vertical-align: top;
     padding: 1em !important;
-}
-
-th {
-    
 }
 
 td.inner-table {
@@ -72,6 +68,10 @@ td.inner-table table {
 figure {
     //text-align: center;
     margin: 1em 0;
+}
+
+figcaption {
+    font-style: italic;
 }
 
 .fa-paper-plane {
